@@ -1,0 +1,235 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: aquamarine;
+}
+#menu-icon{
+    outline:0;
+    border-color: black;
+}
+#bg{
+    background-color:red
+}
+#nav-link
+{
+    color:white;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    transition: 0.3s;
+}
+#nav-link:hover{
+    outline: 0px;
+    border: 3px solid black;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+}
+.logo{
+   
+    max-width:50px;
+    width:100%;
+    border-radius: 50%;
+}
+
+
+
+
+.banner{
+    background:linear-gradient(to right ,black,red 80%);
+    height:90vh;
+    
+}
+.con{
+    margin: 0px;
+}
+.banner-img{
+    max-width: 300px;
+    margin: 20px; 
+    border-radius: 10px; 
+}
+.banner-heading{
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+
+
+.about-me-heading{
+    color:black;
+    margin: 20px;
+    font-family:monospace;
+}
+.about-me-img{
+    height: 400px;
+    width: 300px;
+}
+.about-me{
+    padding: 20px;
+}
+.about-me-skills{
+    padding: 20px;
+    display: none;
+}
+.about-me-experience{
+    padding: 20px;
+    display: none;
+}
+.skill-1{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.certificates{
+    background:linear-gradient(red,black);
+    display:flex;
+    justify-content:space-around;
+
+}
+.certificates-heading{
+    color: white;
+    margin: 20px;
+    font-family:monospace;
+}
+.certificate-img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition:transform 2s;
+}
+.middle{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;    
+}
+.img-hover:hover .certificate-img{
+    opacity: 0.5;
+}
+.img-hover:hover .middle{
+    opacity: 1;
+}
+.certificate-img:hover{
+    box-shadow: 0.9px 0.9px 0.8px 3px;
+    transform: scale(0.9);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+.project-heading{
+    color:black;
+    text-align: center;
+    margin: 20px;
+    font-family:monospace;
+}
+.card-data{
+    background-color:white;
+}
+
+ul li{
+    list-style:inside;
+}
+.card-data a{
+    margin-bottom:40px;
+    font-size:20px;
+    color: rgb(10, 90, 239);
+    padding:8px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.card-data a:hover{
+    color: rgb(10, 90, 239);
+    text-decoration: none;
+}
+
+#contact{
+    background-color: #232F3E ;
+}
+.contact-heading{
+    color:white;
+    text-align: center;
+    margin: 20px;
+    font-family:monospace;
+}
+.phone-icon{
+    background-color:rgb(232, 85, 85);
+    font-size: 50px;
+    padding: 40px;
+    border-radius:50%;
+}
+.phone-data h3{
+    color: white;
+}
+.phone-data{
+    color: #0000ff;
+}
+.email-icon{
+    background-color:rgb(232, 85, 85);
+    font-size: 50px;
+    padding: 40px;
+    border-radius:50%;
+}
+.email-data h3{
+    color: white;
+}
+.email-data{
+    color: #0000ff;
+}
+.location-icon{
+    background-color:rgb(232, 85, 85);
+    font-size: 50px;
+    padding: 40px;
+    border-radius:50%; 
+}
+.location-data{
+    color: white;
+}
+.location-data a{
+    color: #0000ff;
+}
+.location-data a:hover{
+    text-decoration: none;
+    color: #0000ff;
+}
+
+
+.subscribe{
+   flex: auto;
+   padding: 10px;
+   
+}
+input{
+    outline: 0;
+    padding: 10px;
+    width: 300px;
+}
